@@ -1,3 +1,26 @@
+# Problem Statement: Design an inventory management system for a warehouse where products
+# are stored on racks and shelves. Each product is uniquely identified by a product ID and has
+# attributes such as name, quantity, and price. Utilize a combination of arrays and pointers to
+# efficiently manage the inventory. The system should allow for the addition of new products,
+# updating of product quantities, and calculation of the total value of the inventory. Pointers should
+# be employed to establish relationships between related products or track product movements
+# within the warehouse.
+# 1. Product ID: 101
+# - Name: Laptop
+# - Quantity: 50
+# - Price: $800
+# 2. Product ID: 102
+# - Name: Smartphone
+# - Quantity: 100
+# - Price: $500
+# 3. Product ID: 103
+# - Name: Tablet
+# - Quantity: 30
+# - Price: $400
+# Implement functionalities to add new products with their respective attributes, update the
+# quantities of existing products, and calculate the total value of the inventory based on the
+# quantities and prices of the products. Utilize appropriate data structure to create connections
+# between similar products or track the movement of products within the warehouse..
 class Product:
     def __init__(self, product_id, name, quantity, price):
         self.product_id = product_id
