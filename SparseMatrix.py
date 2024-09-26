@@ -1,3 +1,11 @@
+# Problem Statement: Imagine you are developing a system to manage student grades in a school. The
+# grades are stored in a matrix where rows represent students, and columns represent subjects. However,
+# most students do not take all subjects, resulting in a sparse matrix where most elements are zero.
+# Given the sparse matrix representing student grades below, implement a solution using arrays to
+# efficiently manage and manipulate the grades data:
+
+# Perform operations such as calculating the average grade for each subject, identifying students with the
+# highest grades, and finding the subject with the highest average grade.
 class StudentGrades:
     def __init__(self, grades):
         self.grades = grades  # 2D list representing the sparse matrix
