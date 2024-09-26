@@ -1,3 +1,11 @@
+# Problem Statement: In a hospital management system, there's a requirement to maintain a record of
+# patients waiting in the emergency room. Implement a singly linked list to manage this queue
+# efficiently. The system should allow receptionists to add patients to the end of the queue, doctors to
+# remove patients from the front of the queue for examination, and nurses to move patients up in
+# priority if their condition deteriorates. Additionally, the system should provide functionality to
+# display the current queue, search for specific patients, and update patient information as needed. The
+# goal is to streamline the patient management process, ensuring timely and efficient care delivery in
+# the emergency room.
 class Node:
     def __init__(self, name, disease, priority, next_node=None):
         self.name = name
