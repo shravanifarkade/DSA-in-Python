@@ -1,3 +1,17 @@
+# Problem Statement: Develop a stack-based to-do list application for managing tasks. Tasks consist of
+# descriptions and priority levels. Implement functionalities to add, remove, and display tasks based on
+# priority. Optimize memory usage and facilitate efficient task management using the stack data structure
+# Consider the following initial tasks in the to-do list:
+#  Task: Complete project proposal
+#  Priority: High
+#  Task: Schedule team meeting
+#  Priority: Medium
+#  Task: Review draft presentation
+#  Priority: Low
+#  Task: Prepare weekly report
+#  Priority: High
+#  Task: Respond to client emails
+#  Priority: Medium.
 class Task:
     def __init__(self, description, priority):
         self.description = description
